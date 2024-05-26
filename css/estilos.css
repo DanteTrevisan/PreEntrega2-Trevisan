@@ -436,3 +436,35 @@ a:active {
     border-color: #666;
 }
 
+/* ############################################################ CONVENIOS ############################################################################# */
+
+
+.titulo-b2 {
+    font-size: 45px;
+    color: #DAFF42;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+@media (max-width: 600px) {
+    .titulo-b2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.titulo-f2 {
+    font-size: 13px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+}
