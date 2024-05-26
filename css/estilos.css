@@ -529,3 +529,32 @@ a:active {
     background: #000000;
     border-bottom: 1px solid #FFF;
 }
+
+/* ############################################################ PREINSCRIPCION ############################################################################# */
+
+
+.titulo2 {
+    font-size: 15px;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+
+.parrafo {
+    font-size: 14px;
+    text-align: justify;
+    color: #666;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+input::placeholder {
+    opacity: 0.5;
+    color: white;
+}
