@@ -48,3 +48,48 @@
     background-color: rgba(46, 153, 153, 60%);
     border: 3px;
 }
+
+/* ############################################################ BOTON FLOTANTE ############################################################################# */
+
+#toTop {
+
+    position: fixed;
+    bottom: 50%;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+    z-index: 600;
+}
+
+#toTopcel {
+
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    cursor: pointer;
+    display: none;
+    z-index: 600;
+    width: 100%
+}
+
+.btn-principal,
+.btn-principal:visited,
+.btn-principal:active {
+    color: #FFF;
+    background: #2E9999;
+    border-color: #2E9999;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.btn-principal:focus {
+    color: #FFF;
+    background-color: #2E9999;
+    border-color: #2E9999;
+}
+
+.btn-principal:hover {
+    color: #FFF;
+    background-color: #666;
+    border-color: #666;
+}
