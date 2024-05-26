@@ -468,3 +468,13 @@ a:active {
     line-height: 15px;
     padding-bottom: 18px;
 }
+
+/* ############################################################ HORARIOS ############################################################################# */
+
+
+.socio-section {
+    /*min-height:1000px;*/
+    padding-top: 100px;
+    text-align: center;
+    background: #000000;
+}
