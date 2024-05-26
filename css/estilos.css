@@ -205,3 +205,24 @@
     text-transform: uppercase;
     line-height: 55px;
 }
+
+/* ############################################################ SECCION 2 ############################################################################# */
+
+
+.imagen2-seccion {
+    background-image: url('../imagenes/instalaciones_01.jpg');
+    background-color: #cccccc;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 140px;
+}
+
+@media (max-width: 900px) {
+    .imagen2-seccion {
+        background-image: url('../imagenes/instalaciones_011.jpg');
+        /* The image used */
+        height: 400px;
+    }
+}
