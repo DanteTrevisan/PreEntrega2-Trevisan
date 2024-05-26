@@ -1,0 +1,50 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*================================================== NAVBAR=============================================*/
+
+.m-gris {
+    background: #8C8C8C;
+    margin: 20px;
+    padding: 0px;
+    height: 1px;
+    width: 100%;
+}
+
+.navbar>.container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.navbar-nav>li>a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar-nav>li>a:hover {
+    text-decoration: none;
+    color: #2E9999;
+}
+
+.cabecera-r>a>img {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+}
+
+.navbar-toggler{
+    background-color: rgba(46, 153, 153, 60%);
+    border: 3px;
+}
