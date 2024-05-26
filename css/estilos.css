@@ -253,3 +253,44 @@
     text-align: right;
     color: #15384D;
 }
+
+/* ############################################################ FOOTER ############################################################################# */
+
+.footer-seccion {
+    min-height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    background: #000000;
+}
+
+.titulo-f {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+}
+
+.titulo-f>a {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
