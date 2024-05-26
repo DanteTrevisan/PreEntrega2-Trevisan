@@ -146,3 +146,37 @@
     bottom: 0;
     z-index: -1;
 }
+
+/* ======================================== CLASES Y ANIMACION ==================================== */
+
+.animacion-seccion {
+    margin-bottom: 0px;
+    text-align: center;
+    background: #000000;
+}
+
+.clases-seccion {
+    padding-top: 140px;
+    margin-bottom: 0px;
+    text-align: center;
+    background: #000000;
+}
+
+.carousel {
+    position: relative;
+    margin-top: 0px;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
