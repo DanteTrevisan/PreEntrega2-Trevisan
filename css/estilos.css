@@ -226,3 +226,30 @@
         height: 400px;
     }
 }
+
+/* ############################################################ CONTACTO ############################################################################# */
+
+.contacto-seccion {
+    min-height: 850px;
+    padding-top: 140px;
+    text-align: center;
+    background: #000000;
+}
+
+.parrafo3 {
+    font-size: 14px;
+    text-align: center;
+    color: #2E9999;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.ico {
+    margin-right: 10px;
+}
+
+.ico-menu {
+    text-align: right;
+    color: #15384D;
+}
