@@ -478,3 +478,54 @@ a:active {
     text-align: center;
     background: #000000;
 }
+
+/* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
+
+
+.titulo-sec2 {
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+@media (max-width: 600px) {
+    .titulo-sec2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+.titulo-pf {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    background: #000000;
+    border-bottom: 1px solid #FFF;
+}
+
+.titulo-pf>a {
+    font-size: 15px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 15px;
+    padding-bottom: 18px;
+    padding-top: 10px;
+    background: #000000;
+    border-bottom: 1px solid #FFF;
+}
