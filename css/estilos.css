@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+
+
 /*================================================== NAVBAR=============================================*/
 
 .m-gris {
@@ -554,7 +556,11 @@ a:active {
 }
 
 
-input::placeholder {
+textarea::placeholder {
     opacity: 0.5;
     color: white;
+}
+
+img{
+    color: #FFF;
 }
