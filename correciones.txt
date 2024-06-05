@@ -2,9 +2,9 @@ Repositorio
 La organizacion es correcta
 
 Html
-Los alt de las imagenes deben ser textos descriptivos de cada imagen
-Todos los archivos deberian tener el menu de navegacion completo que permita al usuario ir de una sección a otra sin inconveniente ni tener que pasar por inicio antes
-Todos los archivos html que presentas deben ser navegables entre si
+1. Los alt de las imagenes deben ser textos descriptivos de cada imagen (completado)
+2. Todos los archivos deberian tener el menu de navegacion completo que permita al usuario ir de una sección a otra sin inconveniente ni tener que pasar por inicio antes. (completado)
+3. Todos los archivos html que presentas deben ser navegables entre si (va de la mano con 2)
 Div es un tag contenedor, no es para insertar texto
 Hay tabulaciones desprolijas
 Cada input debe tener el label correspondiente
