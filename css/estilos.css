@@ -58,6 +58,10 @@ pre{
 
 /* ############################################################ BOTON FLOTANTE ############################################################################# */
 
+.contenedor-flotante{
+    display: block;
+}
+
 #toTop {
 
     position: fixed;
@@ -133,6 +137,10 @@ pre{
     font-style: normal;
     font-weight: 300;
     margin-top: 20px
+}
+
+.parrafo2 > li{
+    list-style-type: none;
 }
 
 /* ======================================== VIDEO PROMO ==================================== */
