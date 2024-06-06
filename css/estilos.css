@@ -5,6 +5,11 @@
     padding: 0;
 }
 
+pre{ 
+    white-space: pre-wrap; 
+    word-break: break-word;
+ }
+
 
 
 /*================================================== NAVBAR=============================================*/
@@ -104,6 +109,8 @@
 
     text-align: center;
     background: #000000;
+    padding-bottom: 140px;
+
 }
 
 
@@ -125,6 +132,7 @@
     font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 300;
+    margin-top: 20px
 }
 
 /* ======================================== VIDEO PROMO ==================================== */
@@ -206,7 +214,7 @@
     font-weight: 900;
     text-transform: uppercase;
     line-height: 55px;
-    /*margin-top: 30px;*/
+    margin-top: 30px;
 }
 
 /* ############################################################ SECCION 2 ############################################################################# */
@@ -246,6 +254,7 @@
     font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     font-weight: 300;
+    padding-top: 25px;
 }
 
 .ico {
@@ -316,6 +325,7 @@ a:active {
     font-weight: 900;
     text-transform: uppercase;
     line-height: 55px;
+    margin-top: 75px;
 }
 
 @media (max-width: 600px) {
@@ -373,6 +383,10 @@ a:active {
     text-transform: uppercase;
     line-height: 35px;
     margin-bottom: 15px;
+}
+
+.beneficios img{
+    width: 80%;
 }
 
 @media (max-width: 600px) {
@@ -477,7 +491,7 @@ a:active {
 
 .socio-section {
     /*min-height:1000px;*/
-    padding-top: 100px;
+    padding-top: 0px;
     text-align: center;
     background: #000000;
 }
@@ -531,6 +545,11 @@ a:active {
     padding-top: 10px;
     background: #000000;
     border-bottom: 1px solid #FFF;
+}
+
+.accordion-body{
+    background-color: #000000;
+    color: #FFF;
 }
 
 /* ############################################################ PREINSCRIPCION ############################################################################# */
