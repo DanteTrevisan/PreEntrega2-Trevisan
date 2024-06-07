@@ -13,7 +13,7 @@ Hay rutas de <a> dentro de los archivos dentro de "html" que son incorrectas. Si
 Cada archivo debe tener un h1 (corregido)
 
 Css
-No debe haber estilos en el html
+No debe haber estilos en el html (completo)
 
 Bootstrap
 La aplicacion es correcta
@@ -25,4 +25,3 @@ Adaptación responsive
 La consigna esta cumplida
 Tene en cuetna que todos los textos y todo el contenido deberia poder visualizarse comodamente en todos los dispositivos. Los horarios en la version mobile no son legibles
 
-Me falta sacar los width height

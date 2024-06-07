@@ -293,6 +293,10 @@ pre {
     
 }
 
+#consulta{
+    height: 250px;
+}
+
 /* ############################################################ FOOTER ############################################################################# */
 
 .footer-seccion {
@@ -533,22 +537,9 @@ a:active {
     background-color: #2E9999;
 }
 
-/*th,
-td {
-    white-space: nowrap;
+.img-horarios{
+    width: 100%;
 }
-
-.first-col {
-    position: absolute;
-    width: 5em;
-    margin-left: -5em;
-}
-
-.table-wrapper {
-    overflow-x: scroll;
-    width: 600px;
-    margin: 0 auto;
-}*/
 
 /* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
 
