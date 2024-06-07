@@ -133,7 +133,7 @@
     border: 3px;
 }
 
-.logo-img img{
+.logo-img>img{
     width: 120px;
 }
 
