@@ -5,14 +5,85 @@
     padding: 0;
 }
 
-pre {
-    white-space: pre-wrap;
-    word-break: break-word;
+/*================================================== GALERIA CONTACTO PREGUNTAS FRECUENTES=============================================*/
+
+
+.titulo-sec2 {
+    font-size: 55px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+    margin-top: 30px;
 }
 
+@media (max-width: 600px) {
+    .titulo-sec2 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+}
+
+/*================================================== BOTON FLOTANTE Y CONTACTO=============================================*/
 
 
-/*================================================== NAVBAR=============================================*/
+.btn-principal,
+.btn-principal:visited,
+.btn-principal:active {
+    color: #FFF;
+    background: #2E9999;
+    border-color: #2E9999;
+    width: 100%;
+    border-radius: 0px;
+}
+
+.btn-principal:focus {
+    color: #FFF;
+    background-color: #2E9999;
+    border-color: #2E9999;
+}
+
+.btn-principal:hover {
+    color: #FFF;
+    background-color: #666;
+    border-color: #666;
+}
+
+/*================================================== CONVENIOS Y BENEFICIOS=============================================*/
+
+
+.titulo-b2 {
+    font-size: 45px;
+    color: #DAFF42;
+    text-align: center;
+    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 55px;
+}
+
+@media (max-width: 600px) {
+    .titulo-b2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+/*================================================== SUB PAGINAS=============================================*/
+
+.socio-seccion {
+    /*min-height:1000px;*/
+    padding-top: 0px;
+    text-align: center;
+    background: #000000;
+}
+
+/*================================================== BARRA HORIZONTAL=============================================*/
+
 
 .m-gris {
     background: #8C8C8C;
@@ -21,6 +92,11 @@ pre {
     height: 1px;
     width: 100%;
 }
+
+
+
+
+/*================================================== NAVBAR=============================================*/
 
 .navbar>.container {
     flex-direction: column;
@@ -218,18 +294,6 @@ pre {
     background: #000000;
 }
 
-.titulo-sec2 {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-    margin-top: 30px;
-}
-
 .img-carousel img{
     height: 600px;
 }
@@ -384,23 +448,7 @@ a:active {
     }
 }
 
-.titulo-b2 {
-    font-size: 45px;
-    color: #DAFF42;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
 
-@media (max-width: 600px) {
-    .titulo-b2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
 
 .beneficios {
     width: 100%;
@@ -430,24 +478,6 @@ a:active {
 /* ############################################################ CONTACTO ############################################################################# */
 
 
-.titulo-sec2 {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
-
-@media (max-width: 600px) {
-    .titulo-sec2 {
-        font-size: 35px;
-        line-height: 35px;
-    }
-}
-
 .form-control {
     display: block;
     width: 100%;
@@ -462,48 +492,12 @@ a:active {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-.btn-principal,
-.btn-principal:visited,
-.btn-principal:active {
-    color: #FFF;
-    background: #2E9999;
-    border-color: #2E9999;
-    width: 100%;
-    border-radius: 0px;
-}
 
-.btn-principal:focus {
-    color: #FFF;
-    background-color: #2E9999;
-    border-color: #2E9999;
-}
-
-.btn-principal:hover {
-    color: #FFF;
-    background-color: #666;
-    border-color: #666;
-}
 
 /* ############################################################ CONVENIOS ############################################################################# */
 
 
-.titulo-b2 {
-    font-size: 45px;
-    color: #DAFF42;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
 
-@media (max-width: 600px) {
-    .titulo-b2 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-}
 
 .titulo-f2 {
     font-size: 13px;
@@ -518,15 +512,6 @@ a:active {
 }
 
 /* ############################################################ HORARIOS ############################################################################# */
-
-
-.socio-section {
-    /*min-height:1000px;*/
-    padding-top: 0px;
-    text-align: center;
-    background: #000000;
-}
-
 
 .table-hover tbody tr th:nth-child(1) {
     background-color: #2E9999;
@@ -543,24 +528,6 @@ a:active {
 
 /* ############################################################ PREGUNTAS FRECUENTES ############################################################################# */
 
-
-.titulo-sec2 {
-    font-size: 55px;
-    color: #FFF;
-    text-align: center;
-    font-family: 'Darker Grotesque', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 900;
-    text-transform: uppercase;
-    line-height: 55px;
-}
-
-@media (max-width: 600px) {
-    .titulo-sec2 {
-        font-size: 35px;
-        line-height: 35px;
-    }
-}
 
 .titulo-pf {
     font-size: 15px;
