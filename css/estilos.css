@@ -522,6 +522,10 @@ a:active {
     background-color: #2E9999;
 }
 
+.table-hover tbody tr th:nth-child(5) {
+    background-color: #2E9999;
+}
+
 
 .img-horarios{
     width: 100%;
